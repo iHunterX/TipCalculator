@@ -12,6 +12,9 @@
 		532EAF811E443A5100E9F9D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 532EAF7F1E443A5100E9F9D8 /* Main.storyboard */; };
 		532EAF831E443A5100E9F9D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 532EAF821E443A5100E9F9D8 /* Assets.xcassets */; };
 		532EAF861E443A5100E9F9D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 532EAF841E443A5100E9F9D8 /* LaunchScreen.storyboard */; };
+		532EAF8E1E448B6E00E9F9D8 /* PopoverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532EAF8D1E448B6E00E9F9D8 /* PopoverVC.swift */; };
+		535F98C51E4ADAA0005A14E4 /* MyColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535F98C41E4ADAA0005A14E4 /* MyColor.swift */; };
+		535F98C71E4AE4EF005A14E4 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535F98C61E4AE4EF005A14E4 /* SettingsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		532EAF821E443A5100E9F9D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		532EAF851E443A5100E9F9D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		532EAF871E443A5100E9F9D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		532EAF8D1E448B6E00E9F9D8 /* PopoverVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverVC.swift; sourceTree = "<group>"; };
+		535F98C41E4ADAA0005A14E4 /* MyColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyColor.swift; sourceTree = "<group>"; };
+		535F98C61E4AE4EF005A14E4 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +62,13 @@
 			children = (
 				532EAF7B1E443A5000E9F9D8 /* AppDelegate.swift */,
 				532EAF7D1E443A5000E9F9D8 /* ViewController.swift */,
+				535F98C41E4ADAA0005A14E4 /* MyColor.swift */,
 				532EAF7F1E443A5100E9F9D8 /* Main.storyboard */,
 				532EAF821E443A5100E9F9D8 /* Assets.xcassets */,
 				532EAF841E443A5100E9F9D8 /* LaunchScreen.storyboard */,
 				532EAF871E443A5100E9F9D8 /* Info.plist */,
+				532EAF8D1E448B6E00E9F9D8 /* PopoverVC.swift */,
+				535F98C61E4AE4EF005A14E4 /* SettingsTableViewController.swift */,
 			);
 			path = TipCalculator;
 			sourceTree = "<group>";
@@ -138,6 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				532EAF7E1E443A5000E9F9D8 /* ViewController.swift in Sources */,
+				535F98C71E4AE4EF005A14E4 /* SettingsTableViewController.swift in Sources */,
+				535F98C51E4ADAA0005A14E4 /* MyColor.swift in Sources */,
+				532EAF8E1E448B6E00E9F9D8 /* PopoverVC.swift in Sources */,
 				532EAF7C1E443A5000E9F9D8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +275,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NV594KKX35;
 				INFOPLIST_FILE = TipCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dxLoc.TipCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,6 +289,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NV594KKX35;
 				INFOPLIST_FILE = TipCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dxLoc.TipCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,6 +316,7 @@
 				532EAF8C1E443A5100E9F9D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
